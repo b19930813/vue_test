@@ -12,10 +12,10 @@
           <div slot="subtitle">Be happy in KH</div>
         </q-toolbar-title>
         <div class="gt-xs">
-          <q-btn flat class="q-mr-md">Home</q-btn>
-          <q-btn flat class="q-mr-md">關於高雄</q-btn>
-          <q-btn flat class="q-mr-md">熱門景點</q-btn>
-          <q-btn flat class="q-mr-md">熱門美食</q-btn> 
+          <q-btn flat class="q-mr-md"  @click="$router.push('/')">Home</q-btn>
+          <q-btn flat class="q-mr-md" @click="$router.push('KH')">關於高雄</q-btn>
+          <q-btn flat class="q-mr-md" @click="$router.push('spot')">景點</q-btn>
+          <q-btn flat class="q-mr-md" @click="$router.push('food')">美食</q-btn> 
           <q-btn flat class="q-mr-md">關於我</q-btn>
         </div>
          <div class="lt-sm">
@@ -35,19 +35,19 @@
         link
         inset-delimiter
       >
-          <q-item>
+          <q-item @click.native="$router.push('KH')">
           <q-item-side icon="import_contacts" />
           <q-item-main label="關於高雄" sublabel="高雄是殺小" />
         </q-item>
-        <q-item>
+          <q-item @click.native="$router.push('spot')">
           <q-item-side icon="group" />
           <q-item-main label="熱門景點" sublabel="高雄玩殺小" />
         </q-item>
-        <q-item>
+          <q-item @click.native="$router.push('food')">
           <q-item-side icon="face" />
           <q-item-main label="熱門美食" sublabel="高雄吃殺小" />
         </q-item>
-        <q-item>
+         <q-item @click.native="$router.push('about')">
           <q-item-side icon="account_circle" />
           <q-item-main label="關於我" sublabel="我的帥你不得不知" />
         </q-item>
@@ -55,7 +55,10 @@
           <q-item-side icon="account_circle" />
           <q-item-main label="全境封鎖3" sublabel="封殺花媽" />
         </q-item>
-          
+          <q-item @click.native="$router.push('/')">
+          <q-item-side icon="account_circle" />
+          <q-item-main label="回首頁" sublabel="Home" />
+        </q-item>
         <!--
         <q-item @click.native="openURL('https://twitter.com/quasarframework')">
           <q-item-side icon="rss feed" />

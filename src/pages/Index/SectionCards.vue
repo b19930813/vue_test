@@ -41,30 +41,30 @@ export default {
     return{
         rabbitList:[
             {
-                title:'彩虹教堂',rate:'5.0',image:'khCard1.jpg',locate:'高雄',comment:'彩虹教堂有很多免費的彩虹頻道可以觀賞喔!'
+                title:'彩虹教堂',rate:'5.0',image:'https://i.imgur.com/Nyspq0x.jpg',locate:'高雄',comment:'彩虹教堂有很多免費的彩虹頻道可以觀賞喔!'
             },
              {
-                title:'龍虎塔',rate:'5.0',image:'khCard2.jpg',locate:'高雄',comment:'鼠牛虎兔龍蛇馬羊猴雞狗豬!'
+                title:'龍虎塔',rate:'5.0',image:'https://i.imgur.com/YYJOVUh.jpg',locate:'高雄',comment:'鼠牛虎兔龍蛇馬羊猴雞狗豬!'
             },
              {
-                title:'85層樓',rate:'5.0',image:'khCard3.jpg',locate:'高雄',comment:'免費山豬租借!'
+                title:'85層樓',rate:'5.0',image:'https://i.imgur.com/Hlq37JB.jpg',locate:'高雄',comment:'免費山豬租借!'
             },
              {
-                title:'LOVE',rate:'5.0',image:'khCard4.jpg',locate:'高雄',comment:'愛情產業鏈，合法性交易!'
+                title:'LOVE',rate:'5.0',image:'https://i.imgur.com/gBUaXcT.jpg',locate:'高雄',comment:'愛情產業鏈，合法性交易!'
             },
         ],
           foodList:[
             {
-                title:'紅豆尬抹茶烤披薩',rate:'5.0',image:'khFood1.jpg',locate:'高雄',comment:'吃爽!'
+                title:'紅豆尬抹茶烤披薩',rate:'5.0',image:'https://i.imgur.com/zNn3TGk.jpg',locate:'高雄',comment:'吃爽!'
             },
              {
-                title:'肉包包',rate:'5.0',image:'khFood2.jpg',locate:'高雄',comment:'跪求影片!'
+                title:'肉包包',rate:'5.0',image:'https://i.imgur.com/YKDNQXU.jpg',locate:'高雄',comment:'跪求影片!'
             },
              {
-                title:'高雄頂級交通工具',rate:'5.0',image:'khFood3.jpg',locate:'高雄',comment:'山豬肉!'
+                title:'高雄頂級交通工具',rate:'5.0',image:'https://i.imgur.com/RGIYieI.jpg',locate:'高雄',comment:'山豬肉!'
             },
              {
-                title:'肉燥飯',rate:'5.0',image:'khFood4.jpg',locate:'高雄',comment:'一晚30!'
+                title:'肉燥飯',rate:'5.0',image:'https://i.imgur.com/xhp0uGl.jpg',locate:'高雄',comment:'一晚30!'
             },
         ]
     }

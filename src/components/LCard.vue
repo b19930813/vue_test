@@ -2,7 +2,7 @@
 
     <q-card inline >
         <q-card-media>
-        <img v-bind:src="'/statics/'+image" height="250" width="50">
+        <img v-bind:src="image" height="250" width="50">
         </q-card-media>
         <q-card-title>
             <span>{{title}}</span>
